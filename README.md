@@ -172,5 +172,13 @@ endmodule
 ## Simulation Output
 <img width="1920" height="1080" alt="Screenshot 2025-11-18 141924" src="https://github.com/user-attachments/assets/1d0933bc-8c04-446a-ad5d-dab9af070ab1" />
 
+## FPGA Board Implementation
+1. **passenger_sensor = 1**, after another 200 ns, a **second passenger** arrives.
+
+2. **ambient_light = 200**
+set ambient high to simulate **bright environment** so light_level = 255 - 200 = 55 **(dim LEDs)**.
+
+<img width="937" height="865" alt="image" src="https://github.com/user-attachments/assets/d24336c1-6af6-4ed9-921e-8610ded2852b" />
+
 ## Results
 The successful implementation and verification of the design achieved the objectives of intelligent power management, resulting in reduced energy consumption in railway coaches.
