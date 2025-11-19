@@ -178,6 +178,18 @@ endmodule
 2. **ambient_light = 200**
 set ambient high to simulate **bright environment** so light_level = 255 - 200 = 55 **(dim LEDs)**.
 
+3. **led 1** – Indicates **lights status** (general indicator for lighting).
+
+4. **led 2** – Indicates **fan status**.
+
+5. **next 8 leds** (led 3–led 10) – Represent the **binary value** of the number **55**, i.e. **00110111**.
+
+6. **next 2 leds** (led 11 & led 12) – Indicate **status register bits**:
+
+    - LED 11 → Status Register Bit = 0
+      
+    - LED 12 → Status Register Bit = 1
+
 <img width="937" height="865" alt="image" src="https://github.com/user-attachments/assets/d24336c1-6af6-4ed9-921e-8610ded2852b" />
 
 ## Results
